@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C65B9D72805D6E20019B3AE /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65B9D52805D6E20019B3AE /* TasksViewController.swift */; };
+		9C65B9DA2805DACB0019B3AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65B9D92805DACB0019B3AE /* LoginViewController.swift */; };
 		9CD7A51A28042ABB0065F21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7A51928042ABB0065F21C /* AppDelegate.swift */; };
 		9CD7A51C28042ABB0065F21C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7A51B28042ABB0065F21C /* SceneDelegate.swift */; };
-		9CD7A51E28042ABB0065F21C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7A51D28042ABB0065F21C /* ViewController.swift */; };
 		9CD7A52128042ABB0065F21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7A51F28042ABB0065F21C /* Main.storyboard */; };
 		9CD7A52328042ABB0065F21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7A52228042ABB0065F21C /* Assets.xcassets */; };
 		9CD7A52628042ABB0065F21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7A52428042ABB0065F21C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C65B9D52805D6E20019B3AE /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		9C65B9D92805DACB0019B3AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9CD7A51628042ABB0065F21C /* FirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD7A51928042ABB0065F21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD7A51B28042ABB0065F21C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CD7A51D28042ABB0065F21C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CD7A52028042ABB0065F21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD7A52228042ABB0065F21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD7A52528042ABB0065F21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C65B9D42805D6E20019B3AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C65B9D52805D6E20019B3AE /* TasksViewController.swift */,
+				9C65B9D92805DACB0019B3AE /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		9CD7A50D28042ABA0065F21C = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +67,9 @@
 		9CD7A51828042ABB0065F21C /* FirebaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				9C65B9D42805D6E20019B3AE /* Controllers */,
 				9CD7A51928042ABB0065F21C /* AppDelegate.swift */,
 				9CD7A51B28042ABB0065F21C /* SceneDelegate.swift */,
-				9CD7A51D28042ABB0065F21C /* ViewController.swift */,
 				9CD7A51F28042ABB0065F21C /* Main.storyboard */,
 				9CD7A52228042ABB0065F21C /* Assets.xcassets */,
 				9CD7A52428042ABB0065F21C /* LaunchScreen.storyboard */,
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD7A51E28042ABB0065F21C /* ViewController.swift in Sources */,
+				9C65B9DA2805DACB0019B3AE /* LoginViewController.swift in Sources */,
+				9C65B9D72805D6E20019B3AE /* TasksViewController.swift in Sources */,
 				9CD7A51A28042ABB0065F21C /* AppDelegate.swift in Sources */,
 				9CD7A51C28042ABB0065F21C /* SceneDelegate.swift in Sources */,
 			);
